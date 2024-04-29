@@ -1,0 +1,5 @@
+#Ignoing bytecodes/.class files
+*.class
+
+#other files
+*.DS_Store
