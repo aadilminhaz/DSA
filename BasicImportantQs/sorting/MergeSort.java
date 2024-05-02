@@ -15,7 +15,7 @@ public class MergeSort {
         Integer[] tempArray2 = new Integer[n2];
 
 
-        //Create a temp array 
+        //Create two temp arrays
         for (int i=0; i<n1; i++) {
             tempArray1[i] = number[l+i];
         }
