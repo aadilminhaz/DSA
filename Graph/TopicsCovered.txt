@@ -1,0 +1,8 @@
+
+1. Graph implementation using Array of ArrayList of a custom Edge class
+2. Simple implementation - Basic implementation using ArrayList of ArrayList<Integer> with DFS and BFS printer
+TO-DO
+3. DFS - questions
+4. BFS - questions
+5. Detect cycle - in an undirected Graph - Using DFS with parent check
+6. Detect cycle - in a directed Graph - Using DFS with separate recuresion stack space check 
