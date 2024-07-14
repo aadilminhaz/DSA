@@ -6,10 +6,7 @@ public class CreateTree {
     
     public static void main(String[] args) {
         Scanner sc  = new Scanner(System.in);
-
-        createTree(sc);
-        
-        
+        createTree(sc);    
     }
 
     public static Node createTree(Scanner sc) {
@@ -46,7 +43,3 @@ class Node {
         this.data = data;
     }
 }
-
-
-
-

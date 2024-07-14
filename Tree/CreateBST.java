@@ -33,13 +33,13 @@ public class CreateBST {
         
     }
 
-    public static void printInOrder(Node root) {
-        if (root == null) {
+    public static void printInOrder(Node node) {
+        if (node == null) {
             return;
         }
-        printInOrder(root.left);
-        System.out.println(root.data);
-        printInOrder(root.right);
+        printInOrder(node.left);
+        System.out.println(node.data);
+        printInOrder(node.right);
 
     }
 

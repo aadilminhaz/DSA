@@ -1,6 +1,9 @@
 #Ignoing bytecodes/.class files
 *.class
 
+Question.java
+Question2.java
+
 #other files
 *.DS_Store
 *.vscode

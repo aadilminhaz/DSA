@@ -52,9 +52,7 @@ public class LevelOrderAndViews {
         Node[] levelMap = new Node[10];
     
         leftView(root, levelMap, 0);
-       // for (Node node: levelMap) {
-        //    System.out.println(node.data);
-       // }
+       
     }
 
     public static void leftView(Node node, Node[] levelMap, int level) {
