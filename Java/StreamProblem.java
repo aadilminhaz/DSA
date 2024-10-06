@@ -1,6 +1,7 @@
 package Java;
 
 import java.util.*;
+import java.util.function.Function;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
 //import Java.Employee;
@@ -179,11 +180,19 @@ public class StreamProblem {
         Map<String, Long> countMap = users.stream()
             .collect(Collectors.groupingBy(str-> str, Collectors.counting()));
 
+        Map<String, Long> countMap2 = users.stream() 
+            .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
+
         System.out.println("Word with max occurence");
         countMap.entrySet().stream()
             .sorted(Map.Entry.comparingByValue())
             .forEach(System.out::println);
 
+        System.out.println("Word with max occurence 2");
+            countMap2.entrySet().stream()
+                .sorted(Map.Entry.comparingByValue())
+                .forEach(System.out::println);
+    
         
     }
     

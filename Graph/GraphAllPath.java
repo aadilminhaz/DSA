@@ -113,7 +113,8 @@ public class GraphAllPath {
 
         traverse(graph, "A");
 
-        findPath(graph, "A", "D");
+        //findPath(graph, "A", "D");
+        findPath(graph, "B", "C");
 
         findAllPaths(graph, "A", "D");
     }
